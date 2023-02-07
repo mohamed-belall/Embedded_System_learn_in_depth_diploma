@@ -10,7 +10,7 @@
 - [Unit 2: C Programming]() <img src="https://progress-bar.dev/25/?title=In Progress&color=FFEC00 &width=150">
   - [Lesson 1: Introduction to Embedded System Filed]() <img src="https://progress-bar.dev/100/?title=Done &color=0043B9">
   - [Lesson 2: Git Tutorial]() <img src="https://progress-bar.dev/100/?title=Done &color=0043B9">
-  - [Lesson 3: C Basics]() <img src="https://progress-bar.dev/0/?title=In Progress&color=FFEC00">
+  - [Lesson 3: C Basics]() <img src="https://progress-bar.dev/60/?title=In Progress&color=FFEC00">
   - [Lesson 4: C Array & String]() <img src="https://progress-bar.dev/0/?title=Start_Soon&color=FF0000">
   - [Lesson 5: C Functions]() <img src="https://progress-bar.dev/0/?title=Start_Soon&color=FF0000">
   - [Lesson 6: Structures_Union_Enum]() <img src="https://progress-bar.dev/0/?title=Start_Soon&color=FF0000">
