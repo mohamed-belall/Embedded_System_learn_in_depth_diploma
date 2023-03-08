@@ -14,7 +14,7 @@
   - [Lesson 4: C Array & String](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_2_C_Programming/Assignment_3_C_Array_%26_String) <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
   - [Lesson 5: C Functions](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_2_C_Programming/Assignment_4_C_Function) <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
   - [Mid Term 1](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_2_C_Programming/mid_term_1) <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
-  - [Lesson 6: Structures_Union_Enum]() <img src="https://progress-bar.dev/0/?title=Start_Soon&color=FF0000">
+  - [Lesson 6: Structures_Union_Enum](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_2_C_Programming/Assignment_5_C_Structures_Union_Enum) <img src="https://progress-bar.dev/50/?title=In Progress&color=FFEC00">
   - [Lesson 7: Pre-processor directives in C]() <img src="https://progress-bar.dev/0/?title=Start_Soon&color=FF0000">
   - [Lesson 8: C Pointers Lecture]() <img src="https://progress-bar.dev/0/?title=Start_Soon&color=FF0000">
 
