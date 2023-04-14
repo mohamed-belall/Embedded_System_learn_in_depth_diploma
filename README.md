@@ -22,7 +22,11 @@
 
  
 - [Unit 3: Embedded C ]() <img src="https://progress-bar.dev/0/?title=In Progress&color=FFEC00 &width=150">
-
+  - [Lesson 1:](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_3_Embedded_C/lesson_1) <img src="https://progress-bar.dev/50/?title=In Progress&color=FFEC00 ">
+  - [Lesson 2:] <img src="https://progress-bar.dev/0/?title=Start_Soon&color=FF0000">
+  - [Lesson 3:] <img src="https://progress-bar.dev/0/?title=Start_Soon&color=FF0000">
+  - [Lesson 4:] <img src="https://progress-bar.dev/0/?title=Start_Soon&color=FF0000">
+  - [Lesson 5:] <img src="https://progress-bar.dev/0/?title=Start_Soon&color=FF0000">
 
 
 
