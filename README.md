@@ -16,7 +16,7 @@
   - [Mid Term 1](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_2_C_Programming/mid_term_1) <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
   - [Lesson 6: Structures_Union_Enum](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_2_C_Programming/Assignment_5_C_Structures_Union_Enum) <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
   - [Lesson 7: Pre-processor directives in C] <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
-  - [Lesson 8: C Pointers Lecture]() <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
+  - [Lesson 8: C Pointers Lecture](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_2_C_Programming/Assignment_6_C_Pointers) <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
 
  
 
