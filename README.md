@@ -1,7 +1,7 @@
 # Embedded_System_learn_in_depth_diploma
 
 ## Contents
-### First Term <img src="https://progress-bar.dev/20/?title=In Progress&color=FFEC00 &width=600"> 
+### First Term <img src="https://progress-bar.dev/40/?title=In Progress&color=FFEC00 &width=600"> 
 
 - [Unit 1: Diploma Prerequisites] <img src="https://progress-bar.dev/100/?title=Done &color=0043B9 &width=150">
 
@@ -21,9 +21,9 @@
  
 
  
-- [Unit 3: Embedded C ]() <img src="https://progress-bar.dev/0/?title=In Progress&color=FFEC00 &width=150">
-  - [Lesson 1:](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_3_Embedded_C/lesson_1) <img src="https://progress-bar.dev/50/?title=In Progress&color=FFEC00 ">
-  - [Lesson 2:] <img src="https://progress-bar.dev/0/?title=Start_Soon&color=FF0000">
+- [Unit 3: Embedded C ]() <img src="https://progress-bar.dev/40/?title=In Progress&color=FFEC00 &width=150">
+  - [Lesson 1:](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_3_Embedded_C/lesson_1) <img src="https://progress-bar.dev/100/?title=Done&color=0043B9 ">
+  - [Lesson 2:](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_3_Embedded_C/Lesson_2) <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
   - [Lesson 3:] <img src="https://progress-bar.dev/0/?title=Start_Soon&color=FF0000">
   - [Lesson 4:] <img src="https://progress-bar.dev/0/?title=Start_Soon&color=FF0000">
   - [Lesson 5:] <img src="https://progress-bar.dev/0/?title=Start_Soon&color=FF0000">
