@@ -1,5 +1,11 @@
 # Embedded_System_learn_in_depth_diploma
 
+## Progress Profile
+
+[![Progress Profile](https://user-images.githubusercontent.com/77551534/236877069-addbe4b3-4bc3-4dec-b3c4-192951bdbb1c.png)](https://www.learn-in-depth.com/online-diploma/mohamedbelal045%40gmail.com)
+
+---
+
 ## Contents
 ### First Term <img src="https://progress-bar.dev/40/?title=In Progress&color=FFEC00 &width=600"> 
 
@@ -21,11 +27,11 @@
  
 
  
-- [Unit 3: Embedded C ](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_3_Embedded_C) <img src="https://progress-bar.dev/60/?title=In Progress&color=FFEC00 &width=150">
+- [Unit 3: Embedded C ](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_3_Embedded_C) <img src="https://progress-bar.dev/80/?title=In Progress&color=FFEC00 &width=150">
   - [Lesson 1:](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_3_Embedded_C/lesson_1) <img src="https://progress-bar.dev/100/?title=Done&color=0043B9 ">
   - [Lesson 2:](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_3_Embedded_C/Lesson_2) <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
   - [Lesson 3:](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_3_Embedded_C/lesson_3) <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
-  - Lesson 4: <img src="https://progress-bar.dev/0/?title=Start_Soon&color=FF0000">
+  - [Lesson 4:](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_3_Embedded_C/lesson_4) <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
   - Lesson 5: <img src="https://progress-bar.dev/0/?title=Start_Soon&color=FF0000">
 
 
@@ -35,6 +41,12 @@
 
 
 - Unit 5: First Term Projects  <img src="https://progress-bar.dev/0/?title=Start_Soon&color=FF0000 &width=150">
+
+
+---
+![Web capture_7-5-2023_3134_www learn-in-depth com](https://user-images.githubusercontent.com/77551534/236875586-61edbffa-4251-4382-9292-add93ce9bca0.jpeg)
+
+
 
 
 
