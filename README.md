@@ -7,7 +7,7 @@
 ---
 
 ## Contents
-### First Term <img src="https://progress-bar.dev/40/?title=In Progress&color=FFEC00 &width=600"> 
+### First Term <img src="https://progress-bar.dev/60/?title=In Progress&color=FFEC00 &width=600"> 
 
 - Unit 1: Diploma Prerequisites <img src="https://progress-bar.dev/100/?title=Done &color=0043B9 &width=150">
 
@@ -27,16 +27,19 @@
  
 
  
-- [Unit 3: Embedded C ](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_3_Embedded_C) <img src="https://progress-bar.dev/80/?title=In Progress&color=FFEC00 &width=150">
+- [Unit 3: Embedded C ](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_3_Embedded_C) <img src="https://progress-bar.dev/100/?title=Done&color=0043B9 &width=150">
   - [Lesson 1:](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_3_Embedded_C/lesson_1) <img src="https://progress-bar.dev/100/?title=Done&color=0043B9 ">
   - [Lesson 2:](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_3_Embedded_C/Lesson_2) <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
   - [Lesson 3:](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_3_Embedded_C/lesson_3) <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
   - [Lesson 4:](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_3_Embedded_C/lesson_4) <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
-  - Lesson 5: <img src="https://progress-bar.dev/0/?title=Start_Soon&color=FF0000">
+  - Lesson 5: <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
 
 
 
 - Unit 4: System Architect <img src="https://progress-bar.dev/0/?title=Start_Soon&color=FF0000 &width=150">
+   - Lesson 1:  Data Structures <img src="https://progress-bar.dev/0/?title=Start_Soon&color=FF0000">
+   - Lesson 2: Embedded systems architecting (part 1 ) <img src="https://progress-bar.dev/0/?title=Start_Soon&color=FF0000">
+   - Lesson 3: Embedded systems architecting (part 2 ) <img src="https://progress-bar.dev/0/?title=Start_Soon&color=FF0000">
 
 
 
