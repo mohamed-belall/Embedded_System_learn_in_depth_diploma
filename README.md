@@ -36,9 +36,9 @@
 
 
 
-- Unit 4: System Architect <img src="https://progress-bar.dev/0/?title=Start_Soon&color=FF0000 &width=150">
-   - Lesson 1:  Data Structures <img src="https://progress-bar.dev/0/?title=Start_Soon&color=FF0000">
-   - Lesson 2: Embedded systems architecting (part 1 ) <img src="https://progress-bar.dev/0/?title=Start_Soon&color=FF0000">
+- Unit 4: System Architect <img src="https://progress-bar.dev/30/?title=In Progress&color=FFEC00 &width=150">
+   - Lesson 1:  Data Structures <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
+   - Lesson 2: Embedded systems architecting (part 1 ) <img src="https://progress-bar.dev/0/?title=In Progress&color=FFEC00 ">
    - Lesson 3: Embedded systems architecting (part 2 ) <img src="https://progress-bar.dev/0/?title=Start_Soon&color=FF0000">
 
 
