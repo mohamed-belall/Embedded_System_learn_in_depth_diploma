@@ -16,6 +16,9 @@
 #include "Alarm_Monitor.h"
 #include "Alarm_Actuator_Driver.h"
 
+// #include "driver.h"
+// #include "Pressure_Sensor_Driver.h"
+
 void setup()
 {
 	/*
@@ -25,13 +28,13 @@ void setup()
 	 * 4 => init block
 	 * 5 => set states pointers for each block
 	 * */
-	pressure_sensor_driver_init();
-	alarm_actuator_driver_init();
+	Pressure_Sensor_Driver_init();
+	Alarm_Actuator_Driver_init();
 
-	pressure_sensor_driver_state = state_calling(pressure_sensor_driver_reading);
-	main_algorithm_state = set_pressure_value;
-	alarm_monitor_state = state_calling(alarm_monitor_alarm_off);
-	alarm_actuator_driver_state = state_calling(alarm_actuator_driver_waiting);
+	Pressure_Sensor_Driver_state = STATE_calling(Pressure_Sensor_Driver_Reading);
+	Main_Algorithm_state = Set_Pressure_Value;
+	Alarm_Monitor_state = STATE_calling(Alarm_Monitor_alarm_off);
+	Alarm_Actuator_Driver_state = STATE_calling(Alarm_Actuator_Driver_waiting);
 }
 
 int main()

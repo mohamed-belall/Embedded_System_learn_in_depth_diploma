@@ -199,20 +199,20 @@ OUTPUT(pressure_Controller_cortex_m3.elf elf32-littlearm)
  .debug_line    0x00000289       0x70 Pressure_Sensor_Driver.o
  .debug_line    0x000002f9       0x69 startup.o
 
-.debug_str      0x00000000      0x4d1
+.debug_str      0x00000000      0x576
  .debug_str     0x00000000      0x1a8 Alarm_Actuator_Driver.o
                                 0x23e (size before relaxing)
  .debug_str     0x000001a8       0xae Alarm_Monitor.o
                                 0x1e9 (size before relaxing)
  .debug_str     0x00000256       0x55 driver.o
                                 0x14b (size before relaxing)
- .debug_str     0x000002ab       0x7c main.o
-                                0x2dc (size before relaxing)
- .debug_str     0x00000327       0x98 main_Algorithm.o
+ .debug_str     0x000002ab      0x121 main.o
+                                0x329 (size before relaxing)
+ .debug_str     0x000003cc       0x98 main_Algorithm.o
                                 0x1df (size before relaxing)
- .debug_str     0x000003bf       0x93 Pressure_Sensor_Driver.o
-                                0x213 (size before relaxing)
- .debug_str     0x00000452       0x7f startup.o
+ .debug_str     0x00000464       0x93 Pressure_Sensor_Driver.o
+                                0x260 (size before relaxing)
+ .debug_str     0x000004f7       0x7f startup.o
                                 0x107 (size before relaxing)
 
 .comment        0x00000000       0x11

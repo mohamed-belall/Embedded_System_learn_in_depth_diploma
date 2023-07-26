@@ -326,7 +326,7 @@ void Delete_A_Student(FIFO_Buf_t *studentQueue)
 void Update_Student(FIFO_Buf_t *studentQueue)
 {
 	Sstudent* temp;
-	int i , choice , inputID ,x;
+	int i , choice , inputID ,x , flag = 0;
 
 	DPRINTF("Enter the Student ID to update the entry: ");
 	scanf("%d",&inputID);
@@ -336,6 +336,7 @@ void Update_Student(FIFO_Buf_t *studentQueue)
 	{
 		if(temp->student_ID == inputID)
 		{
+			flag = 1;
 			DPRINTF(" 1. first name \n 2. last name \n 3. ID \n 4. GPA \n 5. courses\n");
 					scanf("%d" , &choice);
 
@@ -385,6 +386,12 @@ void Update_Student(FIFO_Buf_t *studentQueue)
 					break;
 		}
 		temp++;
+	}
+	if(!flag)
+	{
+		DPRINTF("\n\n--------------------------------- \n");
+		DPRINTF("[ERROR] ID number %d not Founded\n" , inputID);
+		DPRINTF("--------------------------------- \n");
 	}
 }
 
