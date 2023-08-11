@@ -7,7 +7,7 @@
 ---
 
 ## Contents
-### First Term <img src="https://progress-bar.dev/80/?title=In Progress&color=FFEC00 &width=600"> 
+### First Term <img src="https://progress-bar.dev/100/?title=Done &color=0043B9 &width=600"> 
 
 - Unit 1: Diploma Prerequisites <img src="https://progress-bar.dev/100/?title=Done &color=0043B9 &width=150">
 
@@ -43,7 +43,53 @@
 
 
 
-- Unit 5: First Term Projects  <img src="https://progress-bar.dev/0/?title=In Progress&color=FFEC00 &width=150">
+- Unit 5: First Term Projects  <img src="https://progress-bar.dev/100/?title=Done&color=0043B9 &width=150">
+   - [1st Project: Pressure Controller](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_5_first_term_exam/project_1_Pressure_Controller) <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
+   - [2nd Project: Student Management](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_5_first_term_exam/project_2_student_mangment) <img src="https://progress-bar.dev/100/?title=Done&color=0043B9 ">
+
+
+
+
+
+
+---
+### Second Term <img src="https://progress-bar.dev/0/?title=In Progress&color=FFEC00 &width=600"> 
+
+- Unit 6: MCU Fundamentals <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000 &width=150">
+  - Lesson 1:  <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
+  - Lesson 2:  <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
+  - Lesson 3: MCU Clocks  <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
+  - Lesson 4: MCU Interrupts  <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
+
+
+- Unit 7: MCU Essential <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000 &width=150">
+  - Lesson 1: GPIO Part1 <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
+  - Lesson 2: GPIO Part2 <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
+  - Lesson 3: GPIO Part3 <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
+  - Lesson 4:  <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
+
+
+- Unit 8: MCU Interfacing <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000 &width=150">
+  - Lesson 1: MCU IO Electrical characteristics <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
+  - Lesson 2: UART <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
+  - Lesson 3: UART Controller <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
+  - Lesson 4: SPI Protocol <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
+  - Lesson 5: SPI Controller <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
+  - Lesson 6: I2C Protocol <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
+  - Lesson 7: I2C Controller <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
+
+
+- Unit 9: MCU Timers/ADC <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000 &width=150">
+  - Lesson 1: Timers  <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
+  - Lesson 2: ADC  <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
+
+  
+- Unit 10: SW Engineering/Testing <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000 &width=150">
+  - Lesson 1: Verification And Validation  <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
+  - Lesson 2: Agile Scrum Methodology  <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
+  - Lesson 3: Test Case design techniques  <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
+
+
 
 
 ---
