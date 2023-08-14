@@ -55,9 +55,9 @@
 ---
 ### Second Term <img src="https://progress-bar.dev/0/?title=In Progress&color=FFEC00 &width=600"> 
 
-- Unit 6: MCU Fundamentals <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000 &width=150">
-  - Lesson 1:  <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
-  - Lesson 2:  <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
+- Unit 6: MCU Fundamentals <img src="https://progress-bar.dev/25/?title=In Progress&color=FFEC00 &width=150">
+  - Lesson 1:  <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
+  - Lesson 2:  <img src="https://progress-bar.dev/0/?title=In Progress&color=FFEC00">
   - Lesson 3: MCU Clocks  <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
   - Lesson 4: MCU Interrupts  <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
 
