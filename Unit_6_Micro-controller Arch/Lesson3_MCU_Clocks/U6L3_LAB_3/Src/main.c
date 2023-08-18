@@ -18,7 +18,7 @@ typedef volatile unsigned int vuint32_t ;
 #define GPIOA_ODR  *(volatile uint32_t *)(GPIOA_BASE + 0x0C)
 /* ========= clock ==========*/
 #define RCC_BASE   0x40021000
-#define RCC_IOPAEN *(volatile uint32_t *)(RCC_BASE + 0x18)
+#define RCC_APB2ENR *(volatile uint32_t *)(RCC_BASE + 0x18)
 #define RCC_CFGR   *(volatile vuint32_t *)(RCC_BASE + 0x04)
 #define RCC_CR     *(volatile vuint32_t *)(RCC_BASE + 0x00)
 
@@ -83,7 +83,7 @@ int main(void)
 	// Bit 2 IOPAEN: IO port A clock enable
 	//			0: IO port A clock disabled
 	//			1: IO port A clock enabled
-	RCC_IOPAEN |= (1<<2);
+	RCC_APB2ENR |= (1<<2);
 
 
 	//Init GPIOA

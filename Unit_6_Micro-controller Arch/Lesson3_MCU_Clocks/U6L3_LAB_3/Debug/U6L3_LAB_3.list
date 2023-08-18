@@ -39,9 +39,9 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  17 .debug_line   00000658  00000000  00000000  000122b9  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    00007ce6  00000000  00000000  00012911  2**0
+ 18 .debug_str    00007ce7  00000000  00000000  00012911  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000050  00000000  00000000  0001a5f7  2**0
+ 19 .comment      00000050  00000000  00000000  0001a5f8  2**0
                   CONTENTS, READONLY
  20 .debug_frame  00000058  00000000  00000000  0001a648  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
@@ -145,7 +145,7 @@ int main(void)
 	// Bit 2 IOPAEN: IO port A clock enable
 	//			0: IO port A clock disabled
 	//			1: IO port A clock enabled
-	RCC_IOPAEN |= (1<<2);
+	RCC_APB2ENR |= (1<<2);
  80001b2:	4b1c      	ldr	r3, [pc, #112]	; (8000224 <main+0xb4>)
  80001b4:	681b      	ldr	r3, [r3, #0]
  80001b6:	4a1b      	ldr	r2, [pc, #108]	; (8000224 <main+0xb4>)

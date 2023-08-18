@@ -39,9 +39,9 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  17 .debug_line   00000647  00000000  00000000  00012255  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    00007c7a  00000000  00000000  0001289c  2**0
+ 18 .debug_str    00007c7b  00000000  00000000  0001289c  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000050  00000000  00000000  0001a516  2**0
+ 19 .comment      00000050  00000000  00000000  0001a517  2**0
                   CONTENTS, READONLY
  20 .debug_frame  00000058  00000000  00000000  0001a568  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
@@ -79,7 +79,7 @@ Disassembly of section .text:
 08000170 <main>:
 /* ========= clock ==========*/
 #define RCC_BASE   0x40021000
-#define RCC_IOPAEN *(volatile uint32_t *)(RCC_BASE + 0x18)
+#define RCC_APB2ENR *(volatile uint32_t *)(RCC_BASE + 0x18)
 
 int main(void)
 {
@@ -90,7 +90,7 @@ int main(void)
 	// Bit 2 IOPAEN: IO port A clock enable
 	//			0: IO port A clock disabled
 	//			1: IO port A clock enabled
-	RCC_IOPAEN |= 1<<2;
+	RCC_APB2ENR |= 1<<2;
  8000176:	4b1a      	ldr	r3, [pc, #104]	; (80001e0 <main+0x70>)
  8000178:	681b      	ldr	r3, [r3, #0]
  800017a:	4a19      	ldr	r2, [pc, #100]	; (80001e0 <main+0x70>)
