@@ -55,11 +55,11 @@
 ---
 ### Second Term <img src="https://progress-bar.dev/0/?title=In Progress&color=FFEC00 &width=600"> 
 
-- Unit 6: MCU Fundamentals <img src="https://progress-bar.dev/50/?title=In Progress&color=FFEC00 &width=150">
+- Unit 6: MCU Fundamentals <img src="https://progress-bar.dev/75/?title=In Progress&color=FFEC00 &width=150">
   - Lesson 1:  <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
   - Lesson 2:  <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
-  - Lesson 3: MCU Clocks  <img src="https://progress-bar.dev/0/?title=In Progress&color=FFEC00">
-  - Lesson 4: MCU Interrupts  <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
+  - [Lesson 3: MCU Clocks](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_6_Micro-controller%20Arch/Lesson3_MCU_Clocks)  <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
+  - Lesson 4: MCU Interrupts  <img src="https://progress-bar.dev/0/?title=In Progress&color=FFEC00">
 
 
 - Unit 7: MCU Essential <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000 &width=150">
