@@ -55,15 +55,15 @@
 ---
 ### Second Term <img src="https://progress-bar.dev/0/?title=In Progress&color=FFEC00 &width=600"> 
 
-- Unit 6: MCU Fundamentals <img src="https://progress-bar.dev/75/?title=In Progress&color=FFEC00 &width=150">
+- Unit 6: MCU Fundamentals <img src="https://progress-bar.dev/100/?title=In Progress&color=FFEC00 &width=150">
   - Lesson 1:  <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
   - Lesson 2:  <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
   - [Lesson 3: MCU Clocks](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_6_Micro-controller%20Arch/Lesson3_MCU_Clocks)  <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
-  - Lesson 4: MCU Interrupts  <img src="https://progress-bar.dev/0/?title=In Progress&color=FFEC00">
+  - [Lesson 4: MCU Interrupts](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_6_Micro-controller%20Arch/Lesson4_MCU_Interrupts)  <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
 
 
-- Unit 7: MCU Essential <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000 &width=150">
-  - Lesson 1: GPIO Part1 <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
+- Unit 7: MCU Essential <img src="https://progress-bar.dev/0/?title=In Progress&color=FFEC00 &width=150">
+  - Lesson 1: GPIO Part1 <img src="https://progress-bar.dev/0/?title=In Progress&color=FFEC00">
   - Lesson 2: GPIO Part2 <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
   - Lesson 3: GPIO Part3 <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
   - Lesson 4:  <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
