@@ -1,0 +1,4 @@
+main.c:38:6:GPIO_Init	1
+main.c:73:6:Clock_Init	1
+main.c:83:6:delay_ms	3
+main.c:90:5:main	4
