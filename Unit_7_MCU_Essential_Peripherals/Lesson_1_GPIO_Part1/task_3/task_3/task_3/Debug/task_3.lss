@@ -3,29 +3,29 @@ task_3.elf:     file format elf32-avr
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
-  0 .text         00000174  00000000  00000000  00000054  2**1
+  0 .text         00000112  00000000  00000000  00000054  2**1
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-  1 .data         00000000  00800060  00800060  000001c8  2**0
+  1 .data         00000000  00800060  00800060  00000166  2**0
                   CONTENTS, ALLOC, LOAD, DATA
-  2 .comment      00000030  00000000  00000000  000001c8  2**0
+  2 .comment      00000030  00000000  00000000  00000166  2**0
                   CONTENTS, READONLY
-  3 .note.gnu.avr.deviceinfo 0000003c  00000000  00000000  000001f8  2**2
+  3 .note.gnu.avr.deviceinfo 0000003c  00000000  00000000  00000198  2**2
                   CONTENTS, READONLY
-  4 .debug_aranges 00000020  00000000  00000000  00000234  2**0
+  4 .debug_aranges 00000020  00000000  00000000  000001d4  2**0
                   CONTENTS, READONLY, DEBUGGING
-  5 .debug_info   000006be  00000000  00000000  00000254  2**0
+  5 .debug_info   00000646  00000000  00000000  000001f4  2**0
                   CONTENTS, READONLY, DEBUGGING
-  6 .debug_abbrev 00000588  00000000  00000000  00000912  2**0
+  6 .debug_abbrev 00000595  00000000  00000000  0000083a  2**0
                   CONTENTS, READONLY, DEBUGGING
-  7 .debug_line   00000304  00000000  00000000  00000e9a  2**0
+  7 .debug_line   0000029f  00000000  00000000  00000dcf  2**0
                   CONTENTS, READONLY, DEBUGGING
-  8 .debug_frame  00000034  00000000  00000000  000011a0  2**2
+  8 .debug_frame  00000034  00000000  00000000  00001070  2**2
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_str    0000034d  00000000  00000000  000011d4  2**0
+  9 .debug_str    0000034d  00000000  00000000  000010a4  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_loc    00000168  00000000  00000000  00001521  2**0
+ 10 .debug_loc    000000d8  00000000  00000000  000013f1  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_ranges 00000010  00000000  00000000  00001689  2**0
+ 11 .debug_ranges 00000010  00000000  00000000  000014c9  2**0
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -61,7 +61,7 @@ Disassembly of section .text:
   5c:	de bf       	out	0x3e, r29	; 62
   5e:	cd bf       	out	0x3d, r28	; 61
   60:	0e 94 36 00 	call	0x6c	; 0x6c <main>
-  64:	0c 94 b8 00 	jmp	0x170	; 0x170 <_exit>
+  64:	0c 94 87 00 	jmp	0x10e	; 0x10e <_exit>
 
 00000068 <__bad_interrupt>:
   68:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
@@ -75,205 +75,136 @@ int main(void)
 {
   6c:	cf 93       	push	r28
   6e:	df 93       	push	r29
-  70:	00 d0       	rcall	.+0      	; 0x72 <main+0x6>
-  72:	1f 92       	push	r1
-  74:	cd b7       	in	r28, 0x3d	; 61
-  76:	de b7       	in	r29, 0x3e	; 62
+  70:	1f 92       	push	r1
+  72:	cd b7       	in	r28, 0x3d	; 61
+  74:	de b7       	in	r29, 0x3e	; 62
 	// make all pin of port A as output
 	//DDRA = 0b11111111;
 	SETBIT(DDRD,4);
-  78:	81 b3       	in	r24, 0x11	; 17
-  7a:	80 61       	ori	r24, 0x10	; 16
-  7c:	81 bb       	out	0x11, r24	; 17
+  76:	81 b3       	in	r24, 0x11	; 17
+  78:	80 61       	ori	r24, 0x10	; 16
+  7a:	81 bb       	out	0x11, r24	; 17
 	SETBIT(DDRD,5);
-  7e:	81 b3       	in	r24, 0x11	; 17
-  80:	80 62       	ori	r24, 0x20	; 32
-  82:	81 bb       	out	0x11, r24	; 17
+  7c:	81 b3       	in	r24, 0x11	; 17
+  7e:	80 62       	ori	r24, 0x20	; 32
+  80:	81 bb       	out	0x11, r24	; 17
 	SETBIT(DDRD,6);
-  84:	81 b3       	in	r24, 0x11	; 17
-  86:	80 64       	ori	r24, 0x40	; 64
-  88:	81 bb       	out	0x11, r24	; 17
+  82:	81 b3       	in	r24, 0x11	; 17
+  84:	80 64       	ori	r24, 0x40	; 64
+  86:	81 bb       	out	0x11, r24	; 17
 	SETBIT(DDRD,7);
-  8a:	81 b3       	in	r24, 0x11	; 17
-  8c:	80 68       	ori	r24, 0x80	; 128
-  8e:	81 bb       	out	0x11, r24	; 17
+  88:	81 b3       	in	r24, 0x11	; 17
+  8a:	80 68       	ori	r24, 0x80	; 128
+  8c:	81 bb       	out	0x11, r24	; 17
 	
 	DDRC = 0xFF;
-  90:	8f ef       	ldi	r24, 0xFF	; 255
-  92:	84 bb       	out	0x14, r24	; 20
+  8e:	8f ef       	ldi	r24, 0xFF	; 255
+  90:	84 bb       	out	0x14, r24	; 20
 	
 	// PORTC PIN 0 as input
 	CLEARBIT(DDRC,0);
-  94:	84 b3       	in	r24, 0x14	; 20
-  96:	8e 7f       	andi	r24, 0xFE	; 254
-  98:	84 bb       	out	0x14, r24	; 20
+  92:	84 b3       	in	r24, 0x14	; 20
+  94:	8e 7f       	andi	r24, 0xFE	; 254
+  96:	84 bb       	out	0x14, r24	; 20
 
 	// create bit variable to iterate 8 bit 
 	volatile unsigned char bit =0 ,i,j;
-  9a:	19 82       	std	Y+1, r1	; 0x01
+  98:	19 82       	std	Y+1, r1	; 0x01
 
 	while (1) 
 	{
 		for(bit=7;bit>=5;bit--)
-  9c:	87 e0       	ldi	r24, 0x07	; 7
-  9e:	89 83       	std	Y+1, r24	; 0x01
-  a0:	24 c0       	rjmp	.+72     	; 0xea <main+0x7e>
+  9a:	87 e0       	ldi	r24, 0x07	; 7
+  9c:	89 83       	std	Y+1, r24	; 0x01
+  9e:	24 c0       	rjmp	.+72     	; 0xe8 <main+0x7c>
 		{
 				SETBIT(PORTD,bit);
-  a2:	29 81       	ldd	r18, Y+1	; 0x01
-  a4:	81 e0       	ldi	r24, 0x01	; 1
-  a6:	90 e0       	ldi	r25, 0x00	; 0
-  a8:	ac 01       	movw	r20, r24
-  aa:	02 c0       	rjmp	.+4      	; 0xb0 <main+0x44>
-  ac:	44 0f       	add	r20, r20
-  ae:	55 1f       	adc	r21, r21
-  b0:	2a 95       	dec	r18
-  b2:	e2 f7       	brpl	.-8      	; 0xac <main+0x40>
-  b4:	9a 01       	movw	r18, r20
-  b6:	32 b3       	in	r19, 0x12	; 18
-  b8:	23 2b       	or	r18, r19
-  ba:	22 bb       	out	0x12, r18	; 18
+  a0:	29 81       	ldd	r18, Y+1	; 0x01
+  a2:	81 e0       	ldi	r24, 0x01	; 1
+  a4:	90 e0       	ldi	r25, 0x00	; 0
+  a6:	ac 01       	movw	r20, r24
+  a8:	02 c0       	rjmp	.+4      	; 0xae <main+0x42>
+  aa:	44 0f       	add	r20, r20
+  ac:	55 1f       	adc	r21, r21
+  ae:	2a 95       	dec	r18
+  b0:	e2 f7       	brpl	.-8      	; 0xaa <main+0x3e>
+  b2:	9a 01       	movw	r18, r20
+  b4:	32 b3       	in	r19, 0x12	; 18
+  b6:	23 2b       	or	r18, r19
+  b8:	22 bb       	out	0x12, r18	; 18
 	#else
 		//round up by default
 		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
 	#endif
 
 	__builtin_avr_delay_cycles(__ticks_dc);
-  bc:	5f ef       	ldi	r21, 0xFF	; 255
-  be:	24 e3       	ldi	r18, 0x34	; 52
-  c0:	3c e0       	ldi	r19, 0x0C	; 12
-  c2:	51 50       	subi	r21, 0x01	; 1
-  c4:	20 40       	sbci	r18, 0x00	; 0
-  c6:	30 40       	sbci	r19, 0x00	; 0
-  c8:	e1 f7       	brne	.-8      	; 0xc2 <main+0x56>
-  ca:	00 c0       	rjmp	.+0      	; 0xcc <main+0x60>
-  cc:	00 00       	nop
+  ba:	5f ef       	ldi	r21, 0xFF	; 255
+  bc:	24 e3       	ldi	r18, 0x34	; 52
+  be:	3c e0       	ldi	r19, 0x0C	; 12
+  c0:	51 50       	subi	r21, 0x01	; 1
+  c2:	20 40       	sbci	r18, 0x00	; 0
+  c4:	30 40       	sbci	r19, 0x00	; 0
+  c6:	e1 f7       	brne	.-8      	; 0xc0 <main+0x54>
+  c8:	00 c0       	rjmp	.+0      	; 0xca <main+0x5e>
+  ca:	00 00       	nop
 				_delay_ms(500);
 				CLEARBIT(PORTD,bit);
-  ce:	29 81       	ldd	r18, Y+1	; 0x01
-  d0:	02 c0       	rjmp	.+4      	; 0xd6 <main+0x6a>
-  d2:	88 0f       	add	r24, r24
-  d4:	99 1f       	adc	r25, r25
-  d6:	2a 95       	dec	r18
-  d8:	e2 f7       	brpl	.-8      	; 0xd2 <main+0x66>
-  da:	80 95       	com	r24
-  dc:	90 95       	com	r25
-  de:	92 b3       	in	r25, 0x12	; 18
-  e0:	89 23       	and	r24, r25
-  e2:	82 bb       	out	0x12, r24	; 18
+  cc:	29 81       	ldd	r18, Y+1	; 0x01
+  ce:	02 c0       	rjmp	.+4      	; 0xd4 <main+0x68>
+  d0:	88 0f       	add	r24, r24
+  d2:	99 1f       	adc	r25, r25
+  d4:	2a 95       	dec	r18
+  d6:	e2 f7       	brpl	.-8      	; 0xd0 <main+0x64>
+  d8:	80 95       	com	r24
+  da:	90 95       	com	r25
+  dc:	92 b3       	in	r25, 0x12	; 18
+  de:	89 23       	and	r24, r25
+  e0:	82 bb       	out	0x12, r24	; 18
 	// create bit variable to iterate 8 bit 
 	volatile unsigned char bit =0 ,i,j;
 
 	while (1) 
 	{
 		for(bit=7;bit>=5;bit--)
-  e4:	89 81       	ldd	r24, Y+1	; 0x01
-  e6:	81 50       	subi	r24, 0x01	; 1
-  e8:	89 83       	std	Y+1, r24	; 0x01
-  ea:	89 81       	ldd	r24, Y+1	; 0x01
-  ec:	85 30       	cpi	r24, 0x05	; 5
-  ee:	c8 f6       	brcc	.-78     	; 0xa2 <main+0x36>
+  e2:	89 81       	ldd	r24, Y+1	; 0x01
+  e4:	81 50       	subi	r24, 0x01	; 1
+  e6:	89 83       	std	Y+1, r24	; 0x01
+  e8:	89 81       	ldd	r24, Y+1	; 0x01
+  ea:	85 30       	cpi	r24, 0x05	; 5
+  ec:	c8 f6       	brcc	.-78     	; 0xa0 <main+0x34>
 		{
 				SETBIT(PORTD,bit);
 				_delay_ms(500);
 				CLEARBIT(PORTD,bit);
 		}
 		SETBIT(PORTD,4);
-  f0:	82 b3       	in	r24, 0x12	; 18
-  f2:	80 61       	ori	r24, 0x10	; 16
-  f4:	82 bb       	out	0x12, r24	; 18
-  f6:	4f ef       	ldi	r20, 0xFF	; 255
-  f8:	54 e3       	ldi	r21, 0x34	; 52
-  fa:	8c e0       	ldi	r24, 0x0C	; 12
-  fc:	41 50       	subi	r20, 0x01	; 1
-  fe:	50 40       	sbci	r21, 0x00	; 0
- 100:	80 40       	sbci	r24, 0x00	; 0
- 102:	e1 f7       	brne	.-8      	; 0xfc <main+0x90>
- 104:	00 c0       	rjmp	.+0      	; 0x106 <main+0x9a>
- 106:	00 00       	nop
+  ee:	82 b3       	in	r24, 0x12	; 18
+  f0:	80 61       	ori	r24, 0x10	; 16
+  f2:	82 bb       	out	0x12, r24	; 18
+  f4:	4f ef       	ldi	r20, 0xFF	; 255
+  f6:	54 e3       	ldi	r21, 0x34	; 52
+  f8:	8c e0       	ldi	r24, 0x0C	; 12
+  fa:	41 50       	subi	r20, 0x01	; 1
+  fc:	50 40       	sbci	r21, 0x00	; 0
+  fe:	80 40       	sbci	r24, 0x00	; 0
+ 100:	e1 f7       	brne	.-8      	; 0xfa <main+0x8e>
+ 102:	00 c0       	rjmp	.+0      	; 0x104 <main+0x98>
+ 104:	00 00       	nop
 		_delay_ms(500);
 		CLEARBIT(PORTD,4);
- 108:	82 b3       	in	r24, 0x12	; 18
- 10a:	8f 7e       	andi	r24, 0xEF	; 239
- 10c:	82 bb       	out	0x12, r24	; 18
-		
-		for(i=0;i<4;i++)
- 10e:	1a 82       	std	Y+2, r1	; 0x02
- 110:	2b c0       	rjmp	.+86     	; 0x168 <main+0xfc>
-		{
-			
-			for(j=0;j<10;j++)
- 112:	1b 82       	std	Y+3, r1	; 0x03
- 114:	13 c0       	rjmp	.+38     	; 0x13c <main+0xd0>
-			{
-				
-				PORTC = 0b0111 | (j<<4);
- 116:	8b 81       	ldd	r24, Y+3	; 0x03
- 118:	20 e1       	ldi	r18, 0x10	; 16
- 11a:	82 9f       	mul	r24, r18
- 11c:	c0 01       	movw	r24, r0
- 11e:	11 24       	eor	r1, r1
- 120:	87 60       	ori	r24, 0x07	; 7
- 122:	85 bb       	out	0x15, r24	; 21
- 124:	3f ef       	ldi	r19, 0xFF	; 255
- 126:	41 ee       	ldi	r20, 0xE1	; 225
- 128:	54 e0       	ldi	r21, 0x04	; 4
- 12a:	31 50       	subi	r19, 0x01	; 1
- 12c:	40 40       	sbci	r20, 0x00	; 0
- 12e:	50 40       	sbci	r21, 0x00	; 0
- 130:	e1 f7       	brne	.-8      	; 0x12a <main+0xbe>
- 132:	00 c0       	rjmp	.+0      	; 0x134 <main+0xc8>
- 134:	00 00       	nop
-		CLEARBIT(PORTD,4);
-		
-		for(i=0;i<4;i++)
-		{
-			
-			for(j=0;j<10;j++)
- 136:	8b 81       	ldd	r24, Y+3	; 0x03
- 138:	8f 5f       	subi	r24, 0xFF	; 255
- 13a:	8b 83       	std	Y+3, r24	; 0x03
- 13c:	8b 81       	ldd	r24, Y+3	; 0x03
- 13e:	8a 30       	cpi	r24, 0x0A	; 10
- 140:	50 f3       	brcs	.-44     	; 0x116 <main+0xaa>
-			{
-				
-				PORTC = 0b0111 | (j<<4);
-				_delay_ms(200);
-			}
+ 106:	82 b3       	in	r24, 0x12	; 18
+ 108:	8f 7e       	andi	r24, 0xEF	; 239
+ 10a:	82 bb       	out	0x12, r24	; 18
 			PORTC = 0b1011 | (i<<4);
- 142:	8a 81       	ldd	r24, Y+2	; 0x02
- 144:	20 e1       	ldi	r18, 0x10	; 16
- 146:	82 9f       	mul	r24, r18
- 148:	c0 01       	movw	r24, r0
- 14a:	11 24       	eor	r1, r1
- 14c:	8b 60       	ori	r24, 0x0B	; 11
- 14e:	85 bb       	out	0x15, r24	; 21
- 150:	3f ef       	ldi	r19, 0xFF	; 255
- 152:	41 ee       	ldi	r20, 0xE1	; 225
- 154:	54 e0       	ldi	r21, 0x04	; 4
- 156:	31 50       	subi	r19, 0x01	; 1
- 158:	40 40       	sbci	r20, 0x00	; 0
- 15a:	50 40       	sbci	r21, 0x00	; 0
- 15c:	e1 f7       	brne	.-8      	; 0x156 <main+0xea>
- 15e:	00 c0       	rjmp	.+0      	; 0x160 <main+0xf4>
- 160:	00 00       	nop
+			_delay_ms(200);
 		}
-		SETBIT(PORTD,4);
-		_delay_ms(500);
-		CLEARBIT(PORTD,4);
-		
-		for(i=0;i<4;i++)
- 162:	8a 81       	ldd	r24, Y+2	; 0x02
- 164:	8f 5f       	subi	r24, 0xFF	; 255
- 166:	8a 83       	std	Y+2, r24	; 0x02
- 168:	8a 81       	ldd	r24, Y+2	; 0x02
- 16a:	84 30       	cpi	r24, 0x04	; 4
- 16c:	90 f2       	brcs	.-92     	; 0x112 <main+0xa6>
- 16e:	96 cf       	rjmp	.-212    	; 0x9c <main+0x30>
+	
+	*/
+	}
+ 10c:	c6 cf       	rjmp	.-116    	; 0x9a <main+0x2e>
 
-00000170 <_exit>:
- 170:	f8 94       	cli
+0000010e <_exit>:
+ 10e:	f8 94       	cli
 
-00000172 <__stop_program>:
- 172:	ff cf       	rjmp	.-2      	; 0x172 <__stop_program>
+00000110 <__stop_program>:
+ 110:	ff cf       	rjmp	.-2      	; 0x110 <__stop_program>

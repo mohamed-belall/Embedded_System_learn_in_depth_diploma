@@ -12,8 +12,6 @@
 
 int main(void)
 {
-	// make all pin of port A as output
-	//DDRA = 0b11111111;
 	SETBIT(DDRD,4);
 	SETBIT(DDRD,5);
 	SETBIT(DDRD,6);
@@ -25,7 +23,7 @@ int main(void)
 	CLEARBIT(DDRC,0);
 
 	// create bit variable to iterate 8 bit 
-	volatile unsigned char bit =0 ,i,j;
+	volatile unsigned char bit =0;
 
 	while (1) 
 	{
@@ -38,21 +36,7 @@ int main(void)
 		SETBIT(PORTD,4);
 		_delay_ms(500);
 		CLEARBIT(PORTD,4);
-		
-		for(i=0;i<4;i++)
-		{
-			
-			for(j=0;j<10;j++)
-			{
-				
-				PORTC = 0b0111 | (j<<4);
-				_delay_ms(200);
-			}
-			PORTC = 0b1011 | (i<<4);
-			_delay_ms(200);
-		}
-	
-	
+
 	}
 }
 
