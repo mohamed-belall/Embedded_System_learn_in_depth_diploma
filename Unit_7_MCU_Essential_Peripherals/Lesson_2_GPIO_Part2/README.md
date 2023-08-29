@@ -1,5 +1,9 @@
 # Write LCD Driver, Keypad Driver, and atmega32 to make calculator
 
+
+![U7L2_calculator](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/blob/master/Unit_7_MCU_Essential_Peripherals/Lesson_2_GPIO_Part2/U7L2_calculator.gif)
+
+
 | Pin Number | Pin Name | Description |
 | --- | --- | --- |
 | 1 | VSS | Ground |
