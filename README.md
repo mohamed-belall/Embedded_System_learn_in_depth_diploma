@@ -65,7 +65,7 @@
 - [Unit 7: MCU Essential](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_7_MCU_Essential_Peripherals) <img src="https://progress-bar.dev/50/?title=In Progress&color=FFEC00 &width=150">
   - [Lesson 1: GPIO Part1](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_7_MCU_Essential_Peripherals/Lesson_1_GPIO_Part1) <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
   - Lesson 2: GPIO Part2 <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
-  - Lesson 3: GPIO Part3 <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
+  - Lesson 3: GPIO Part3 <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
   - Lesson 4:  <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
 
 
