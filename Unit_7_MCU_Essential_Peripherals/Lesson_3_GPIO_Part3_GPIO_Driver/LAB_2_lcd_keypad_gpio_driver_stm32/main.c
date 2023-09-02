@@ -83,7 +83,7 @@ int main(void)
 	GPIO_SevenSegment_Init();
 	LCD_Init();
 
-	LCD_Send_String("hey there");
+	LCD_Send_String("hey");
 	delay_ms(500);
 	LCD_Clear_Screen();
 
