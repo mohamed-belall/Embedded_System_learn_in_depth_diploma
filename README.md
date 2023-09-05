@@ -53,7 +53,7 @@
 
 
 ---
-### Second Term <img src="https://progress-bar.dev/0/?title=In Progress&color=FFEC00 &width=600"> 
+### Second Term <img src="https://progress-bar.dev/40/?title=In Progress&color=FFEC00 &width=600"> 
 
 - [Unit 6: MCU Fundamentals](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_6_Micro-controller%20Arch) <img src="https://progress-bar.dev/100/?title=In Progress&color=FFEC00 &width=150">
   - Lesson 1:  <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
@@ -62,15 +62,15 @@
   - [Lesson 4: MCU Interrupts](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_6_Micro-controller%20Arch/Lesson4_MCU_Interrupts)  <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
 
 
-- [Unit 7: MCU Essential](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_7_MCU_Essential_Peripherals) <img src="https://progress-bar.dev/50/?title=In Progress&color=FFEC00 &width=150">
+- [Unit 7: MCU Essential](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_7_MCU_Essential_Peripherals) <img src="https://progress-bar.dev/100/?title=Done&color=0043B9 &width=150">
   - [Lesson 1: GPIO Part1](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_7_MCU_Essential_Peripherals/Lesson_1_GPIO_Part1) <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
-  - Lesson 2: GPIO Part2 <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
-  - Lesson 3: GPIO Part3 <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
-  - Lesson 4:  <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
+  - [Lesson 2: GPIO Part2](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_7_MCU_Essential_Peripherals/Lesson_2_GPIO_Part2) <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
+  - [Lesson 3: GPIO Part3](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_7_MCU_Essential_Peripherals/Lesson_3_GPIO_Part3_GPIO_Driver) <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
+  - [Lesson 4: EXTI](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_7_MCU_Essential_Peripherals/Lesson_4_EXTI/EXTI_driver) <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
 
 
-- Unit 8: MCU Interfacing <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000 &width=150">
-  - Lesson 1: MCU IO Electrical characteristics <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
+- Unit 8: MCU Interfacing <img src="https://progress-bar.dev/0/?title=In Progress&color=FFEC00 &width=150">
+  - Lesson 1: MCU IO Electrical characteristics <img src="https://progress-bar.dev/0/?title=In Progress&color=FFEC00">
   - Lesson 2: UART <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
   - Lesson 3: UART Controller <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
   - Lesson 4: SPI Protocol <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
