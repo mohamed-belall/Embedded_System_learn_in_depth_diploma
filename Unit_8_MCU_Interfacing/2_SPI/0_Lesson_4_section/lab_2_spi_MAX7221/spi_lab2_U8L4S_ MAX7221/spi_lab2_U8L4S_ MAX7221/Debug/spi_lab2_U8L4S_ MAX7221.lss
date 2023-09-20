@@ -1,0 +1,209 @@
+
+spi_lab2_U8L4S_ MAX7221.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         000000e6  00000000  00000000  00000054  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000000  00800060  00800060  0000013a  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .comment      00000030  00000000  00000000  0000013a  2**0
+                  CONTENTS, READONLY
+  3 .note.gnu.avr.deviceinfo 0000003c  00000000  00000000  0000016c  2**2
+                  CONTENTS, READONLY
+  4 .debug_aranges 00000030  00000000  00000000  000001a8  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_info   000006da  00000000  00000000  000001d8  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_abbrev 000005ef  00000000  00000000  000008b2  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   000002d1  00000000  00000000  00000ea1  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_frame  00000044  00000000  00000000  00001174  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_str    0000038f  00000000  00000000  000011b8  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_loc    000000bd  00000000  00000000  00001547  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_ranges 00000020  00000000  00000000  00001604  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	0c 94 2a 00 	jmp	0x54	; 0x54 <__ctors_end>
+   4:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+   8:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+   c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  10:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  14:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  18:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  1c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  20:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  24:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  28:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  2c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  30:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  34:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  38:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  3c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  40:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  44:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  48:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  4c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  50:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+
+00000054 <__ctors_end>:
+  54:	11 24       	eor	r1, r1
+  56:	1f be       	out	0x3f, r1	; 63
+  58:	cf e5       	ldi	r28, 0x5F	; 95
+  5a:	d8 e0       	ldi	r29, 0x08	; 8
+  5c:	de bf       	out	0x3e, r29	; 62
+  5e:	cd bf       	out	0x3d, r28	; 61
+  60:	0e 94 49 00 	call	0x92	; 0x92 <main>
+  64:	0c 94 71 00 	jmp	0xe2	; 0xe2 <_exit>
+
+00000068 <__bad_interrupt>:
+  68:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+0000006c <SPI_MasterInit>:
+
+void SPI_MasterInit(void)
+{
+	
+	// set MOSI and SCK  and SS ==>  output
+	DDRB |= (1<<MOSI)|(1<<SCK)|(1<<SS);
+  6c:	87 b3       	in	r24, 0x17	; 23
+  6e:	80 6b       	ori	r24, 0xB0	; 176
+  70:	87 bb       	out	0x17, r24	; 23
+	
+	// enable SPI , Master ,Set clock rate fck/16
+	SPCR = (1<<SPE)|(1<<MSTR)|(1<<SPR0);
+  72:	81 e5       	ldi	r24, 0x51	; 81
+  74:	8d b9       	out	0x0d, r24	; 13
+  76:	08 95       	ret
+
+00000078 <execute>:
+}
+
+void execute(unsigned char cmd , unsigned char data)
+{
+	//initialized the packet by pulling SS low
+	PORTB &= ~(1 << SS);
+  78:	98 b3       	in	r25, 0x18	; 24
+  7a:	9f 7e       	andi	r25, 0xEF	; 239
+  7c:	98 bb       	out	0x18, r25	; 24
+	
+	//start cmd transmission
+	SPDR = cmd;
+  7e:	8f b9       	out	0x0f, r24	; 15
+	
+	// wait cmd transfer to finish
+	while( !( SPSR & ( 1<<SPIF ) ) );
+  80:	77 9b       	sbis	0x0e, 7	; 14
+  82:	fe cf       	rjmp	.-4      	; 0x80 <execute+0x8>
+	
+	// start data transmission
+	SPDR = data;
+  84:	6f b9       	out	0x0f, r22	; 15
+	
+	//wait data transfer to finish
+	while(!(SPSR & (1<<SPIF)));
+  86:	77 9b       	sbis	0x0e, 7	; 14
+  88:	fe cf       	rjmp	.-4      	; 0x86 <execute+0xe>
+	
+	// terminate the packet by pulling SS high
+	PORTB |= (1<< SS);
+  8a:	88 b3       	in	r24, 0x18	; 24
+  8c:	80 61       	ori	r24, 0x10	; 16
+  8e:	88 bb       	out	0x18, r24	; 24
+  90:	08 95       	ret
+
+00000092 <main>:
+int main(void)
+{
+  unsigned char counter =0;
+  unsigned char index_display = 1;
+  
+  SPI_MasterInit();
+  92:	0e 94 36 00 	call	0x6c	; 0x6c <SPI_MasterInit>
+  
+  execute(0x09,0xFF); /* decode all display => 11111111 */
+  96:	6f ef       	ldi	r22, 0xFF	; 255
+  98:	89 e0       	ldi	r24, 0x09	; 9
+  9a:	0e 94 3c 00 	call	0x78	; 0x78 <execute>
+  execute(0x0A,0xFF); /* set Scan Limit (digit0 to digit7) */
+  9e:	6f ef       	ldi	r22, 0xFF	; 255
+  a0:	8a e0       	ldi	r24, 0x0A	; 10
+  a2:	0e 94 3c 00 	call	0x78	; 0x78 <execute>
+  execute(0x0B,0xF7); /* max intensity */
+  a6:	67 ef       	ldi	r22, 0xF7	; 247
+  a8:	8b e0       	ldi	r24, 0x0B	; 11
+  aa:	0e 94 3c 00 	call	0x78	; 0x78 <execute>
+  execute(0x0C,0x01); /* Turn On Display */
+  ae:	61 e0       	ldi	r22, 0x01	; 1
+  b0:	8c e0       	ldi	r24, 0x0C	; 12
+  b2:	0e 94 3c 00 	call	0x78	; 0x78 <execute>
+
+
+
+int main(void)
+{
+  unsigned char counter =0;
+  b6:	60 e0       	ldi	r22, 0x00	; 0
+  execute(0x0B,0xF7); /* max intensity */
+  execute(0x0C,0x01); /* Turn On Display */
+  
+  while (1)
+  {
+	  for(index_display = 1 ; index_display < 9 ; index_display++)
+  b8:	c1 e0       	ldi	r28, 0x01	; 1
+  ba:	10 c0       	rjmp	.+32     	; 0xdc <main+0x4a>
+	  {
+		  	  
+		  	  execute(index_display,counter++);
+  bc:	d1 e0       	ldi	r29, 0x01	; 1
+  be:	d6 0f       	add	r29, r22
+  c0:	8c 2f       	mov	r24, r28
+  c2:	0e 94 3c 00 	call	0x78	; 0x78 <execute>
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
+  c6:	2f e5       	ldi	r18, 0x5F	; 95
+  c8:	8a ee       	ldi	r24, 0xEA	; 234
+  ca:	90 e0       	ldi	r25, 0x00	; 0
+  cc:	21 50       	subi	r18, 0x01	; 1
+  ce:	80 40       	sbci	r24, 0x00	; 0
+  d0:	90 40       	sbci	r25, 0x00	; 0
+  d2:	e1 f7       	brne	.-8      	; 0xcc <main+0x3a>
+  d4:	00 c0       	rjmp	.+0      	; 0xd6 <main+0x44>
+  d6:	00 00       	nop
+  execute(0x0B,0xF7); /* max intensity */
+  execute(0x0C,0x01); /* Turn On Display */
+  
+  while (1)
+  {
+	  for(index_display = 1 ; index_display < 9 ; index_display++)
+  d8:	cf 5f       	subi	r28, 0xFF	; 255
+	  {
+		  	  
+		  	  execute(index_display,counter++);
+  da:	6d 2f       	mov	r22, r29
+  execute(0x0B,0xF7); /* max intensity */
+  execute(0x0C,0x01); /* Turn On Display */
+  
+  while (1)
+  {
+	  for(index_display = 1 ; index_display < 9 ; index_display++)
+  dc:	c9 30       	cpi	r28, 0x09	; 9
+  de:	70 f3       	brcs	.-36     	; 0xbc <main+0x2a>
+  e0:	eb cf       	rjmp	.-42     	; 0xb8 <main+0x26>
+
+000000e2 <_exit>:
+  e2:	f8 94       	cli
+
+000000e4 <__stop_program>:
+  e4:	ff cf       	rjmp	.-2      	; 0xe4 <__stop_program>
