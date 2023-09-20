@@ -9,7 +9,8 @@
 ## Contents
 ### First Term <img src="https://progress-bar.dev/100/?title=Done &color=0043B9 &width=600"> 
 
-- Unit 1: Diploma Prerequisites <img src="https://progress-bar.dev/100/?title=Done &color=0043B9 &width=150">
+- Unit 1: Diploma Prerequisites <img src
+="https://progress-bar.dev/100/?title=Done &color=0043B9 &width=150">
 
 
 
@@ -72,8 +73,8 @@
 - [Unit 8: MCU Interfacing](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_8_MCU_Interfacing) <img src="https://progress-bar.dev/20/?title=In Progress&color=FFEC00 &width=150">
   - Lesson 1: MCU IO Electrical characteristics <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
   - [Lesson 2: UART](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_8_MCU_Interfacing/Lesson_2) <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
-  - Lesson 3: UART Controller <img src="https://progress-bar.dev/0/?title=In Progress&color=FFEC00">
-  - Lesson 4: SPI Protocol <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
+  - Lesson 3: UART Controller <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
+  - Lesson 4: SPI Protocol <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
   - Lesson 5: SPI Controller <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
   - Lesson 6: I2C Protocol <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
   - Lesson 7: I2C Controller <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
