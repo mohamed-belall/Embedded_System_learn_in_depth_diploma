@@ -76,7 +76,7 @@
   - Lesson 3: UART Controller <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
   - Lesson 4: SPI Protocol <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
   - Lesson 5: SPI Controller <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
-  - Lesson 6: I2C Protocol <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
+  - Lesson 6: I2C Protocol <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
   - Lesson 7: I2C Controller <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
 
 
