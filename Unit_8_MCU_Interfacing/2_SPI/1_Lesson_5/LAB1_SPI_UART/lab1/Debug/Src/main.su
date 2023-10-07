@@ -1,0 +1,4 @@
+../Src/main.c:24:6:Clock_Init	4	static
+../Src/main.c:36:6:SPI_IRQ_CALLBACK	16	static
+../Src/main.c:48:6:USART_IRQ_CALLBACK	4	static
+../Src/main.c:60:5:main	56	static
