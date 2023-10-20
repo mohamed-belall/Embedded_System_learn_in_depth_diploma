@@ -54,7 +54,7 @@
 
 
 ---
-### Second Term <img src="https://progress-bar.dev/40/?title=In Progress&color=FFEC00 &width=600"> 
+### Second Term <img src="https://progress-bar.dev/60/?title=In Progress&color=FFEC00 &width=600"> 
 
 - [Unit 6: MCU Fundamentals](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_6_Micro-controller%20Arch) <img src="https://progress-bar.dev/100/?title=Done&color=0043B9 &width=150">
   - Lesson 1:  <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
@@ -70,18 +70,18 @@
   - [Lesson 4: EXTI](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_7_MCU_Essential_Peripherals/Lesson_4_EXTI/EXTI_driver) <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
 
 
-- [Unit 8: MCU Interfacing](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_8_MCU_Interfacing) <img src="https://progress-bar.dev/70/?title=In Progress&color=FFEC00 &width=150">
+- [Unit 8: MCU Interfacing](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_8_MCU_Interfacing) <img src="https://progress-bar.dev/100/?title=Done&color=0043B9 &width=150">
   - Lesson 1: MCU IO Electrical characteristics <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
   - [Lesson 2: UART](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_8_MCU_Interfacing/Lesson_2) <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
   - Lesson 3: UART Controller <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
   - Lesson 4: SPI Protocol <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
   - Lesson 5: SPI Controller <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
   - Lesson 6: I2C Protocol <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
-  - Lesson 7: I2C Controller <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
+  - Lesson 7: I2C Controller <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
 
 
-- Unit 9: MCU Timers/ADC <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000 &width=150">
-  - Lesson 1: Timers  <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
+- Unit 9: MCU Timers/ADC <img src="https://progress-bar.dev/0/?title=In Progress&color=FFEC00 &width=150">
+  - Lesson 1: Timers  <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
   - Lesson 2: ADC  <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
 
   
