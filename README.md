@@ -80,12 +80,12 @@
   - Lesson 7: I2C Controller <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
 
 
-- Unit 9: MCU Timers/ADC <img src="https://progress-bar.dev/0/?title=In Progress&color=FFEC00 &width=150">
+- Unit 9: MCU Timers/ADC <img src="https://progress-bar.dev/100/?title=Done&color=0043B9 &width=150">
   - Lesson 1: Timers  <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
-  - Lesson 2: ADC  <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
+  - Lesson 2: ADC  <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
 
   
-- Unit 10: SW Engineering/Testing <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000 &width=150">
+- Unit 10: SW Engineering/Testing <img src="https://progress-bar.dev/0/?title=In Progress&color=FFEC00 &color=FF0000 &width=150">
   - Lesson 1: Verification And Validation  <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
   - Lesson 2: Agile Scrum Methodology  <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
   - Lesson 3: Test Case design techniques  <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
