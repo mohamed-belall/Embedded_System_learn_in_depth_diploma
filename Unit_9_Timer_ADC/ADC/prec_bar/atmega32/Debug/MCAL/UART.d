@@ -1,0 +1,1 @@
+MCAL/UART.d MCAL/UART.o: ../MCAL/UART.c
