@@ -54,7 +54,7 @@
 
 
 ---
-### Second Term <img src="https://progress-bar.dev/60/?title=In Progress&color=FFEC00 &width=600"> 
+### Second Term <img src="https://progress-bar.dev/100/?title=Done&color=0043B9 &width=600"> 
 
 - [Unit 6: MCU Fundamentals](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/tree/master/Unit_6_Micro-controller%20Arch) <img src="https://progress-bar.dev/100/?title=Done&color=0043B9 &width=150">
   - Lesson 1:  <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
@@ -85,10 +85,10 @@
   - Lesson 2: ADC  <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
 
   
-- Unit 10: SW Engineering/Testing <img src="https://progress-bar.dev/0/?title=In Progress&color=FFEC00 &color=FF0000 &width=150">
-  - Lesson 1: Verification And Validation  <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
-  - Lesson 2: Agile Scrum Methodology  <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
-  - Lesson 3: Test Case design techniques  <img src="https://progress-bar.dev/0/?title=Not Started &color=FF0000">
+- Unit 10: SW Engineering/Testing <img src="https://progress-bar.dev/100/?title=Done&color=0043B9 &color=FF0000 &width=150">
+  - Lesson 1: Verification And Validation  <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
+  - Lesson 2: Agile Scrum Methodology  <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
+  - Lesson 3: Test Case design techniques  <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
 
 
 
