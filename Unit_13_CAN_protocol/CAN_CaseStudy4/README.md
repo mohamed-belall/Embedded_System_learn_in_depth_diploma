@@ -1,7 +1,9 @@
 # CANoe Accelerator Simulation
 
-This project utilizes Vector CANoe for virtual implementation, featuring two virtual Electronic Control Units (ECUs).
+This project utilizes Vector CANoe for virtual implementation, <br>
+Using two virtual (ECUs).
 
+![image](https://github.com/mohamed-belall/Embedded_System_learn_in_depth_diploma/assets/77551534/1e0b009d-c64a-46e6-893d-85428c015c40)
 
 
 ### ECU1
