@@ -1,0 +1,8 @@
+../Core/Src/main.c:65:6:CAN_TX	4
+../Core/Src/main.c:104:6:CAN_RX_Filter_init	2
+../Core/Src/main.c:127:6:CAN_RX	3
+../Core/Src/main.c:154:5:main	2
+../Core/Src/main.c:218:6:SystemClock_Config	3
+../Core/Src/main.c:255:13:MX_CAN_Init	2
+../Core/Src/main.c:292:13:MX_GPIO_Init	1
+../Core/Src/main.c:312:6:Error_Handler	1

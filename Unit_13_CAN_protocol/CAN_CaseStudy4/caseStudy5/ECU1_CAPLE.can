@@ -1,0 +1,34 @@
+﻿/*@!Encoding:65001*/
+includes
+{
+  
+}
+
+variables
+{
+  msTimer send_Timer;
+  const int TimerPeriod = 1000;
+  message ACC_CMD_message ACC_CMD;
+  int variable_ACC = 0; 
+}
+
+
+on start {
+  write("Eng mohamed Belal: Case Study 5 learn-in-depth");
+  setTimer(send_Timer , TimerPeriod);
+}
+
+on message speedVal_message {
+  
+  write("ECU1: recieved from ECU2");
+}
+
+
+on timer send_Timer{
+  write("Eng mohamed Belal: Case Study 5 learn-in-depth");
+  //variable_ACC ^=1;
+  variable_ACC = @sysvar::ACC_system_VAL;
+  ACC_CMD.ACC_ON.phys = variable_ACC;
+  output(ACC_CMD);
+  setTimer(send_Timer , TimerPeriod);
+}
