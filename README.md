@@ -91,7 +91,13 @@
   - Lesson 3: Test Case design techniques  <img src="https://progress-bar.dev/100/?title=Done&color=0043B9">
 
 
+---
+### Therd Term <img src="https://progress-bar.dev/50/?title=Done&color=f39b27 &width=600"> 
 
+- [Unit 12: Advanced_Topics(autosar , ROS , automotive ethernet)]() <img src="https://progress-bar.dev/100/?title=Done&color=0043B9 &width=150">
+- [Unit 13: CAN_protocol]() <img src="https://progress-bar.dev/100/?title=Done&color=0043B9 &width=150">
+- [Unit 14: ARM] <img src="https://progress-bar.dev/0/?title=Not Started&color=dc071b &width=150">
+- [Unit 15: Create_your_own_RTOS] <img src="https://progress-bar.dev/0/?title=Not Started&color=dc071b &width=150">
 
 ---
 ![Web capture_7-5-2023_3134_www learn-in-depth com](https://user-images.githubusercontent.com/77551534/236875586-61edbffa-4251-4382-9292-add93ce9bca0.jpeg)
