@@ -1,0 +1,8 @@
+../Src/main.c:52:6:Switch_CPU_AccessLevel	16	static,ignoring_inline_asm
+../Src/main.c:72:6:SVC_Handler	8	static
+../Src/main.c:77:5:TaskA	24	static
+../Src/main.c:81:5:TaskB	24	static
+../Src/main.c:86:6:MainOS	8	static,ignoring_inline_asm
+../Src/main.c:145:6:Clock_Init	4	static
+../Src/main.c:155:6:EXTI9_Callback	4	static
+../Src/main.c:171:5:main	40	static
